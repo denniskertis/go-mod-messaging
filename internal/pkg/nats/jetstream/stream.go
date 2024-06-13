@@ -21,7 +21,7 @@ package jetstream
 import (
 	"strings"
 
-	localnats "github.com/edgexfoundry/go-mod-messaging/v3/internal/pkg/nats"
+	localnats "github.com/denniskertis/go-mod-messaging/v42/internal/pkg/nats"
 )
 
 const (

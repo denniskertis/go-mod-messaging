@@ -16,7 +16,7 @@ These interface functions connect, publish, subscribe and disconnect to/from the
 
 * Make sure you have modules enabled, i.e. have an initialized  go.mod file
 * If your code is in your GOPATH then make sure ```GO111MODULE=on``` is set
-* Run ```go get github.com/edgexfoundry/go-mod-messaging/v3```
+* Run ```go get github.com/denniskertis/go-mod-messaging/v42```
   * This will add the go-mod-messaging to the go.mod file and download it into the module cache
 
 ### How to Use ###

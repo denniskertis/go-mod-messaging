@@ -14,18 +14,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/clients/interfaces"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos"
-	commonDTO "github.com/edgexfoundry/go-mod-core-contracts/v3/dtos/common"
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/dtos/responses"
-	"github.com/edgexfoundry/go-mod-messaging/v3/messaging/mocks"
+	"github.com/denniskertis/go-mod-core-contracts/v42/clients/interfaces"
+	"github.com/denniskertis/go-mod-core-contracts/v42/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos"
+	commonDTO "github.com/denniskertis/go-mod-core-contracts/v42/dtos/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/dtos/responses"
+	"github.com/denniskertis/go-mod-messaging/v42/messaging/mocks"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/edgexfoundry/go-mod-messaging/v3/pkg/types"
+	"github.com/denniskertis/go-mod-messaging/v42/pkg/types"
 )
 
 const (

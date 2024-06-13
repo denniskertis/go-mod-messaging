@@ -29,8 +29,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/edgexfoundry/go-mod-messaging/v3/internal/pkg"
-	"github.com/edgexfoundry/go-mod-messaging/v3/pkg/types"
+	"github.com/denniskertis/go-mod-messaging/v42/internal/pkg"
+	"github.com/denniskertis/go-mod-messaging/v42/pkg/types"
 
 	pahoMqtt "github.com/eclipse/paho.mqtt.golang"
 	"github.com/stretchr/testify/assert"

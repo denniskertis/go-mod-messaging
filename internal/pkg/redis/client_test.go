@@ -39,9 +39,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/edgexfoundry/go-mod-messaging/v3/internal/pkg"
-	redisMocks "github.com/edgexfoundry/go-mod-messaging/v3/internal/pkg/redis/mocks"
-	"github.com/edgexfoundry/go-mod-messaging/v3/pkg/types"
+	"github.com/denniskertis/go-mod-messaging/v42/internal/pkg"
+	redisMocks "github.com/denniskertis/go-mod-messaging/v42/internal/pkg/redis/mocks"
+	"github.com/denniskertis/go-mod-messaging/v42/pkg/types"
 )
 
 var HostInfo = types.HostInfo{

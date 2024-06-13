@@ -17,11 +17,11 @@ package mqtt
 import (
 	"testing"
 
-	"github.com/edgexfoundry/go-mod-messaging/v3/internal/pkg"
+	"github.com/denniskertis/go-mod-messaging/v42/internal/pkg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/edgexfoundry/go-mod-messaging/v3/pkg/types"
+	"github.com/denniskertis/go-mod-messaging/v42/pkg/types"
 )
 
 func TestCreateMQTTClientConfiguration(t *testing.T) {

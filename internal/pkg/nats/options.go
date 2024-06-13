@@ -29,8 +29,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/edgexfoundry/go-mod-messaging/v3/internal/pkg"
-	"github.com/edgexfoundry/go-mod-messaging/v3/pkg/types"
+	"github.com/denniskertis/go-mod-messaging/v42/internal/pkg"
+	"github.com/denniskertis/go-mod-messaging/v42/pkg/types"
 	"github.com/nats-io/nats.go"
 )
 
