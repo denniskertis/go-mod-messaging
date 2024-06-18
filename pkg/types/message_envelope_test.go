@@ -22,8 +22,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/edgexfoundry/go-mod-core-contracts/v3/common"
-	commonDTO "github.com/edgexfoundry/go-mod-core-contracts/v3/dtos/common"
+	"github.com/denniskertis/go-mod-core-contracts/v42/common"
+	commonDTO "github.com/denniskertis/go-mod-core-contracts/v42/dtos/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
